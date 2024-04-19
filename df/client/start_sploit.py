@@ -38,7 +38,10 @@ Note that this software is highly destructive. Keep it away from children.
 ]
 
 WOBYH_TOKEN = "UZz5t82ty84DU6ZgXASA"
-WOBYH_SRV = "http://10.10.0.1:5541"
+WOBYH_ADDR = "127.0.0.1"
+WOBYH_PORT = 5541
+
+WOBYH_SRV = f"http://{WOBYH_ADDR}:{WOBYH_PORT}"
 
 
 class Style(Enum):
