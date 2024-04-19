@@ -9,7 +9,7 @@ CONFIG = {
         for i in range(1, 5)
         if i != MY_TEAM_ID
     },
-    "FLAG_FORMAT": r"[A-Z0-9]{31}=",
+    "FLAG_FORMAT": r"[A-Z]{31}=",
     # This configures how and where to submit flags.
     # The protocol must be a module in protocols/ directory.
     "SYSTEM_PROTOCOL": "ructf_http",
