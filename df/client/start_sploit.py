@@ -38,7 +38,7 @@ Note that this software is highly destructive. Keep it away from children.
 ]
 
 WOBYH_TOKEN = "UZz5t82ty84DU6ZgXASA"
-WOBYH_ADDR = "127.0.0.1"
+WOBYH_ADDR = "10.80.1.2"
 WOBYH_PORT = 5541
 
 WOBYH_SRV = f"http://{WOBYH_ADDR}:{WOBYH_PORT}"
