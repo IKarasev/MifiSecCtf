@@ -5,18 +5,17 @@ CONFIG = {
     # The clients will run sploits on TEAMS and
     # fetch FLAG_FORMAT from sploits' stdout.
     "TEAMS": {
-        "Team #{}".format(i): "10.0.0.{}".format(i)
-        for i in range(1, 5)
-        if i != MY_TEAM_ID
+        "Team #{}".format(i): "10.80.{}.2".format(i)
+        for i in range(2:11)
     },
     "FLAG_FORMAT": r"[A-Z]{31}=",
     # This configures how and where to submit flags.
     # The protocol must be a module in protocols/ directory.
     "SYSTEM_PROTOCOL": "ructf_http",
-    "SYSTEM_HOST": "127.0.0.1",
-    "SYSTEM_PORT": 31337,
+    # "SYSTEM_HOST": "127.0.0.1",
+    # "SYSTEM_PORT": 31337,
     # 'SYSTEM_PROTOCOL': 'ructf_http',
-    # 'SYSTEM_URL': 'http://monitor.ructfe.org/flags',
+    'SYSTEM_URL': 'http://10.10.10.10/flags',
     # 'SYSTEM_TOKEN': 'your_secret_token',
     # 'SYSTEM_PROTOCOL': 'volgactf',
     # 'SYSTEM_HOST': '127.0.0.1',
